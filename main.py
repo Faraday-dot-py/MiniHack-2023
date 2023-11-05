@@ -42,22 +42,6 @@ class MessageList:
 
 messageList = MessageList()
 
-# while True:
-#     inp = input("user> ")
-#     if "bye" in inp.lower() or "leave" in inp.lower():
-#         exitConversation()
-#     messageList.add_message(inp, "user")
-
-#     print("Generating...")
-#     response = openai.ChatCompletion.create(
-#         model="gpt-3.5-turbo",
-#         messages=messageList.get_messages(),
-#     )
-#     print ("\033[A                             \033[A")
-#     print("bot> ", end="")
-#     print(response.choices[0].message.content)
-#     messageList.add_message(response.choices[0].message.content, response.choices[0].message.role)
-
 @app.route('/api/chat')
 def chat():
     message = request.args['message']
