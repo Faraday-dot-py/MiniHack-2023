@@ -11,7 +11,7 @@ Overall, the project helped me expand my understanding of Flask, a python-based 
 
 ## If you want to test this project for yourself:
 1) Clone the repo onto your local machine
-2) Get an API key from OpenAI [https://www.maisieai.com/help/how-to-get-an-openai-api-key-for-chatgpt](Tutorial)
+2) Get an API key from OpenAI [Tutorial](https://www.maisieai.com/help/how-to-get-an-openai-api-key-for-chatgpt)
 3) Create a file named ``.env``
 4) On the first line, put ``OPENAI-KEY=[your_api_key]``, and save and close the file 
 5) Run ``main.py``
